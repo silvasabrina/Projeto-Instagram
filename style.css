@@ -1,0 +1,619 @@
+body{
+    position: relative;
+    width: 100%;
+    background-color: #fafafa;
+    }
+.topo{
+    position: absolute;
+    width: 1366px;
+    height: 54px;
+    left: -10opx;
+    top: -10px;
+    display: flex;
+    justify-content:space-between;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    padding: 5px;
+
+}
+.border-vertical{
+    position: absolute;
+    width: 1px;
+    height: 22px;
+    left: 247px;
+    top: 15px;
+    background: #DBDBDB;
+}
+.search-box{
+    position: absolute;
+    width: 215px;
+    height: 28px;
+    left: 50%;
+    top: 30%;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: capitalize;
+    transform: translateX(-50%);
+}
+.name-insta{
+    position: absolute;
+    width: 103px;
+    height: 29px;
+    left: 19%;
+    top: 23%;
+    background: url(logo.png);
+}
+.logo-instagram{
+    position: absolute;
+    width: 1.5%;
+    height: 25px;
+    left: 16%;
+    top: 25%;
+ }
+
+.paper-plane{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 73%;
+    top: 16px;
+}
+
+.compass{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 76%;
+    top: 16px;
+}
+
+.heart{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 79%;
+    top: 16px;
+}
+
+.person{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 82%;
+    top: 16px;
+}
+.espaço-story{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+.wrappe{
+    width: 70%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 30px;
+}
+
+.barra-story{
+    width: 100%;
+    height: 118px;
+    top:50px;
+    left: -20%;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: white;
+    display: flex;
+    position: relative;
+   flex-direction: row;
+   overflow: hidden;
+}
+.borda-story{
+    width: 66px;
+    height: 66px;
+    position: relative;
+    left: 10px;
+}
+.img-story{
+    margin: 14px;
+    position: relative;
+    
+   
+}
+.foto-story{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 15px
+    
+}
+.usuario{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 70%;
+    color: #262626; 
+    display: flex;
+    justify-content:right;
+    top: -100%;
+}
+.stories{
+    display: flex;
+    flex-direction: row;
+    overflow:auto;
+}
+.botao {
+    position: absolute;
+    left: 600px;
+    top: 40px
+}
+    
+.botao ion-icon {
+    font-size: 26px;
+    color: rgba(255, 255, 255, 0.92);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.feed-post{
+    position: absolute;
+    width: 658px;
+    height: 749px;
+    left: 215px;
+    top: 240px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.usuario-topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;  
+    
+}
+.foto-perfil{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 15px;
+    top: 15px;
+    background: url(barked.jpg);
+    border-radius: 28px;
+}
+.usarname{
+    position: absolute;
+    width: 109px;
+    height: 21px;
+    left: 58px;
+    top: 11px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+    font-weight: bold;
+}
+.trespontos{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 600px;
+    top: 27px;
+}
+.foto-feed{
+    position: absolute;
+    width: 658px;
+    height: 600px;
+    left: -1px;
+    top: 70px;  
+}
+.curtidas{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 50px;
+    top: 100px;
+    border-radius: 10px;
+
+}
+.heart-feed{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 680px;
+    border-radius: 10px;
+}
+.comentario{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 40px;
+    top: 680px;
+    border-radius: 10px;
+}
+.paper-plane-feed{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 70px;
+    top: 680px;
+    border-radius: 10px;
+}
+.salvar-feed{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 630px;
+    top: 680px;
+    border-radius: 10px;
+}
+.curtidas{
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 710px;
+}
+.numero-curtidas{
+    position: absolute;
+    width: 309px;
+    height: 21px;
+    left: 40px;
+    top: 695px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.feed-post2{
+    position: absolute;
+    width: 658px;
+    height: 749px;
+    left: 215px;
+    top: 1025px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.foto-perfil2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 15px;
+    top: 15px;
+    border-radius: 28px;
+}
+.usarname2{
+    position: absolute;
+    width: 109px;
+    height: 21px;
+    left:60px;
+    top: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+    font-weight: bold
+}
+.trespontos2{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 600px;
+    top: 30px; 
+}
+.foto-feed2{
+    position: absolute;
+    width: 658px;
+    height: 600px;
+    left: -1px;
+    top: 70px;  
+}
+.sugestao-perfil{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 23px; 
+}
+.sugestaomaior{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 900px;
+    top: 111px;
+    border-radius: 28px;
+}
+.sugest{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500 ;
+    font-weight: bold;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 960px;
+    top: 111px;
+}
+.sug{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500 ;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 960px;
+    top: 125px;
+}
+.Sugestoesparavoce{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500 ;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 905px;
+    top: 175px;
+    display: flex;
+    color: #8E8E8E;
+    white-space: nowrap
+}
+.vertudo{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500 ;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 1125px;
+    top: 180px;
+    display: flex;
+    color: #262626
+    white-space: nowrap;
+    font-weight: bold;
+    align-items: center;
+}
+.perfis-sugeridos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.perfis-sugeridos .perfilS{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.espanto{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 905px;
+    top: 223px;
+    border-radius: 16px;
+}
+.espanto1{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 950px;
+    top: 205px;
+    font-weight: bold
+}
+.espanto2{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 950px;
+    top: 225px; 
+    white-space: nowrap;
+    line-height: 10px;
+    color: #8E8E8E;
+}
+.seguir{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500 ;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 1150px;
+    top: 200px;
+    display: flex;
+    color: #139EF2;
+    white-space: nowrap;
+    font-weight: bold;  
+    align-items: center;
+}
+
+.lesamants{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 905px;
+    top: 270px;
+    border-radius: 16px;
+}
+.les-amante{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 950px;
+    top: 250px;
+    font-weight: bold
+}
+.segue{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 950px;
+    top: 270px; 
+    white-space: nowrap;
+    line-height: 10px;
+    color: #8E8E8E;
+}
+.seguir2{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500 ;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 1150px;
+    top: 245px;
+    display: flex;
+    color: #139EF2;
+    white-space: nowrap;
+    font-weight: bold;  
+    align-items: center;
+}
+
+.acriação{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 905px;
+    top: 315px;
+    border-radius: 16px;
+}
+.acriação1{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 950px;
+    top: 300px;
+    font-weight: bold
+}
+.segue1{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 950px;
+    top: 320px; 
+    white-space: nowrap;
+    line-height: 10px;
+    color: #8E8E8E  
+}
+.seguir3{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500 ;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 1150px;
+    top: 290px;
+    display: flex;
+    color: #139EF2;
+    white-space: nowrap;
+    font-weight: bold;  
+    align-items: center;   
+}
+.frida{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 905px;
+    top: 360px;
+    border-radius: 16px;   
+}
+.frida1{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 950px;
+    top: 345px;
+    font-weight: bold  
+}
+.segue2{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 950px;
+    top: 365px; 
+    white-space: nowrap;
+    line-height: 10px;
+    color: #8E8E8E  
+}
+.seguir4{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500 ;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 1150px;
+    top: 330px;
+    display: flex;
+    color: #139EF2;
+    white-space: nowrap;
+    font-weight: bold;  
+    align-items: center;    
+}
+.grito{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 905px;
+    top: 405px;
+    border-radius: 16px;   
+}
+.grito1{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 950px;
+    top: 385px;
+    font-weight: bold  
+}
+.segue3{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 950px;
+    top: 405px; 
+    white-space: nowrap;
+    line-height: 10px;
+    color: #8e8e8e  
+}
+.seguir5{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500 ;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 1150px;
+    top: 370px;
+    display: flex;
+    color: #139EF2;
+    white-space: nowrap;
+    font-weight: bold;  
+    align-items: center;    
+}  

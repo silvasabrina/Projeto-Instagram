@@ -3,12 +3,18 @@ body{
     width: 100%;
     background-color: #fafafa;
     }
+
+main{
+    margin: 0 auto;
+    margin-top: 140px;
+    width: 898.33px;
+   
+}
 .topo{
-    position: absolute;
-    width: 1366px;
+    position: fixed;
+    width: 100%;
     height: 54px;
-    left: -10opx;
-    top: -10px;
+    top: 0px;
     display: flex;
     justify-content:space-between;
     background: #FFFFFF;
@@ -85,45 +91,40 @@ body{
     left: 82%;
     top: 16px;
 }
-.espaço-story{
-    width: 100%;
+.lado-esquerdo{
+    width: 614px;
     padding: 40px 0;
-    display: flex;
-    justify-content: center;
     margin-top: 2px;
-}
-.wrappe{
-    width: 70%;
-    max-width: 1000px;
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-gap: 30px;
+
 }
 
 .barra-story{
-    width: 100%;
+    width: 614px;
     height: 118px;
-    top:50px;
-    left: -20%;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
-    background-color: white;
+    background-color:white;
     display: flex;
-    position: relative;
-   flex-direction: row;
-   overflow: hidden;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    align-items: center;
+    
+
 }
 .borda-story{
     width: 66px;
     height: 66px;
     position: relative;
-    left: 10px;
 }
 .img-story{
-    margin: 14px;
+    margin: 5px;
     position: relative;
-    
-   
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+       
 }
 .foto-story{
     width: 56px;
@@ -131,7 +132,6 @@ body{
     border-radius: 50%;
     position: absolute;
     top: 5px;
-    left: 15px
     
 }
 .usuario{
@@ -146,27 +146,20 @@ body{
     top: -100%;
 }
 .stories{
-    display: flex;
-    flex-direction: row;
-    overflow:auto;
-}
-.botao {
-    position: absolute;
-    left: 600px;
-    top: 40px
+  
 }
     
-.botao ion-icon {
+.botao {
+    position: relative;
+    left: -18px;
+    top: 40px;
     font-size: 26px;
     color: rgba(255, 255, 255, 0.92);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .feed-post{
-    position: absolute;
     width: 658px;
     height: 749px;
-    left: 215px;
-    top: 240px;
     background: #FFFFFF;
     border: 1px solid #DBDBDB;
     box-sizing: border-box;
@@ -212,11 +205,9 @@ body{
     top: 27px;
 }
 .foto-feed{
-    position: absolute;
     width: 658px;
     height: 600px;
-    left: -1px;
-    top: 70px;  
+    top: 500px;  
 }
 .curtidas{
     position: absolute;
@@ -333,6 +324,9 @@ body{
     align-items: center;
     margin-top: 23px; 
 }
+.coluna-direita{
+    top: 500px
+}
 .sugestaomaior{
     position: absolute;
     width: 56px;
@@ -389,7 +383,7 @@ body{
     left: 1125px;
     top: 180px;
     display: flex;
-    color: #262626
+    color: #262626;
     white-space: nowrap;
     font-weight: bold;
     align-items: center;
